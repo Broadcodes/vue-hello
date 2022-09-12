@@ -9,7 +9,8 @@ const app = new Vue({
     el: '#root',
     data: {
         message: 'Benvenuto su Vue',
-        style: 'h1Style',
-        img: 'img/01.jpg'
+        h1: 'h1Style',
+        img: 'img/01.jpg',
+        image: "image"
     }
 });
