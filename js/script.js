@@ -8,6 +8,7 @@ Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 const app = new Vue({
     el: '#root',
     data: {
-        message: 'Benvenuto su Vue'
+        message: 'Benvenuto su Vue',
+        style: 'h1Style'
     }
 });
