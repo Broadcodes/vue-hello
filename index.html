@@ -23,6 +23,18 @@
             <h1 :class="h1">{{message}}</h1>
             <!-- Creazione elemento img -->
             <img :class="image" :src="img" :alt="img">
+
+            <div class="changeImage">
+                <p>Scegli l'immagine qua di seguito:</p>
+                <!-- Aggiunta di una select -->
+                <select v-model="img">
+                    <option value="img/01.jpg">Immagine 01</option>
+                    <option value="img/02.jpg">Immagine 02</option>
+                    <option value="img/03.jpg">Immagine 03</option>
+                    <option value="img/04.jpg">Immagine 04</option>
+                    <option value="img/05.jpg">Immagine 05</option>
+                </select>
+            </div>
         </div>
     </div>
 </body>
